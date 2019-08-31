@@ -45,6 +45,7 @@ def apply_clearance(cart)
     cart[key][:price] = twenty_percent_off
     #binding.pry
   end
+  end
 end
 
 
