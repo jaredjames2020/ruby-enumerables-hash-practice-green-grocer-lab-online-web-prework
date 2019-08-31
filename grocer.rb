@@ -39,9 +39,8 @@ end
 def apply_clearance(cart)
   # code here
   discount_cart = {}
-  cart.each do |item|co
-    item.each do |key, value|
-    twenty_precent_off = item[key][:price] * 0.8
+  cart.each do |key, value|
+    twenty_precent_off = cart[key][:price] * 0.8
     binding.pry
   
   end
