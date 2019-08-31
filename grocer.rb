@@ -2,7 +2,7 @@ require 'pry'
 
 def consolidate_cart(cart)
   # code here
-  new_cart = Hash.new
+  new_cart = {}
   cart.each do |item| #goes through OG array
     item.each do |key, value| #take key and values from hash of first Array
       if new_cart[key] == nil   #if first hash has no key
@@ -39,8 +39,9 @@ end
 def apply_clearance(cart)
   # code here
   discount_cart = {}
-  cart.each do |key,value|
-    twenty_precent_off = cart[key][:price] * 0.8
+  cart.each do |item|co
+    item.each do |key, value|
+    twenty_precent_off = item[key][:price] * 0.8
     binding.pry
   
   end
