@@ -21,6 +21,7 @@ def apply_coupons(cart, coupons)
   coupons.each do |product|
     item = coupon_hash[:item]
       if cart[item]
+        
     
     
 end
