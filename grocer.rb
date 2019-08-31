@@ -20,7 +20,7 @@ def apply_coupons(cart, coupons)
   # code here
   coupons.each do |coupon|
     item = coupon[:item]
-      if cart.has.key?(item)
+      if cart.has_key?(item)
         binding.pry
         if cart[item][:count] >= coupon[:num] && !cart.has.key?("#{item} W/COUPON")
           
