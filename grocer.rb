@@ -18,6 +18,7 @@ end
 
 def apply_coupons(cart, coupons)
   # code here
+  cart_applied_coupons = {}
   
 end
 
