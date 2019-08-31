@@ -33,7 +33,8 @@ def apply_coupons(cart, coupons)
           cart[item][:count] -= coupon[:num]
       end
     end 
-  cart  
+  cart
+end
 #     coupons.each do |coupon|
 #     item = coupon[:item]
 #     if cart.has_key?(item)
