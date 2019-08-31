@@ -36,7 +36,15 @@ def apply_coupons(cart, coupons)
   cart  
 end
 
-
+def apply_clearance(cart)
+  # code here
+  discount_cart = {}
+  cart.each do |twenty_percent_off|
+    binding.pry
+  
+  end
+  
+end
 
 
 
@@ -51,9 +59,9 @@ end
 #   # code here
 # end
 
-def apply_clearance(cart)
-  # code here
-end
+# def apply_clearance(cart)
+#   # code here
+# end
 
 def checkout(cart, coupons)
   # code here
