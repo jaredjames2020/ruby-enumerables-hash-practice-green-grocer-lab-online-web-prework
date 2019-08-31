@@ -44,7 +44,7 @@ def apply_clearance(cart)
     twenty_percent_off = (cart[key][:price] * 0.8).round(2)
     cart[key][:price] = twenty_percent_off
     #binding.pry
-  end
+   end
   end
 end
 
