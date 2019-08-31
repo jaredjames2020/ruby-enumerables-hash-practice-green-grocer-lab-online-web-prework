@@ -19,7 +19,8 @@ end
 def apply_coupons(cart, coupons)
   # code here
   cart_applied_coupons = {}
-  
+  coupons.each do |item|
+      if item == cart[]
 end
 
 
