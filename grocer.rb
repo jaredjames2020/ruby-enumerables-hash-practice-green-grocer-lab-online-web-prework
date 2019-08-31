@@ -27,6 +27,7 @@ def apply_coupons(cart, coupons)
                                       clearance => cart[item][:clearance], 
                                       count => [coupon][:num]
                                       }
+          binding.pry
         elsif cart[item][:count] >= coupon[:num] && cart.has_key?["#{item} W/COUPON"]
           cart["#{item} W/COUPON"][:count] += coupon[:num]
         end
