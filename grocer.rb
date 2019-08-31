@@ -32,9 +32,11 @@ def apply_coupons(cart, coupons)
         end
           cart[item][:count] -= coupon[:num]
       end
-    end 
+    end
+  end
   cart
 end
+
 #     coupons.each do |coupon|
 #     item = coupon[:item]
 #     if cart.has_key?(item)
