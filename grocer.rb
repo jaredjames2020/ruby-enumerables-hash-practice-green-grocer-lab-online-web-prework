@@ -40,6 +40,7 @@ def apply_clearance(cart)
   # code here
   discount_cart = {}
   cart.each do |item|
+    item = item[]
     binding.pry
   
   end
