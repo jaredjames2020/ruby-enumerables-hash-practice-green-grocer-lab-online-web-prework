@@ -18,26 +18,7 @@ end
 
 def apply_coupons(cart, coupons)
   # code here
-   new_cart = Hash.new
-   cart.each do |key,value|
-     new_cart[key]=value
-      coupons.each do |x|
-  #      binding.pry
-       if coupons[0][:item] == new_cart.keys
-  #       binding.pry
-         coupons[1][:num] 
-          new_cart["AVOCADO W/COUPON"] = 0
-  #   item.each do |x|
-  #       if new_cart[key] == nil   
-  #        new_cart[key] = value
-  #       new_cart[key] = coupons
-  #       binding.pry
-  #     # else
-  #     #   new_cart[key][:coupons]
-        end
-     end
-   end
-   new_cart
+  
 end
 
 
